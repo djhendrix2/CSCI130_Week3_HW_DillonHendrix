@@ -6,13 +6,17 @@
 
 #include <iostream>
 using namespace std;
+#include <iomanip>
 
 int main() {
   // initialize variables
   double x1, y1, x2, y2, m; // Cordinate units 
 
+  // Manipulate variables 
+  cout << setprecision(2) << fixed;
+  cout << setw(3) << setfill ('0');
+ 
   // Prompt user to input x1, y1, x2, y2
-
   // Obtain x1
   cout << "Enter coordinate x1: ";
   cin >> x1;
