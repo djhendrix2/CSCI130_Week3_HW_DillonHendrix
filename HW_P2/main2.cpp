@@ -37,7 +37,7 @@ int main() {
   m = ((y2-y1)/(x2-x1));
 
   // Display m
-  cout << "m = " << m << endl;
+  cout << "The value of the slope is " << m << endl;
   
 
   return 0;
