@@ -15,7 +15,7 @@ int main() {
   // Manipulate variables 
   cout << setprecision(2) << fixed;
   cout << setw(3) << setfill ('0');
- 
+  
   // Prompt user to input x1, y1, x2, y2
   // Obtain x1
   cout << "Enter coordinate x1: ";
@@ -41,8 +41,7 @@ int main() {
   m = ((y2-y1)/(x2-x1));
 
   // Display m
-  cout << "The value of the slope is " << m << endl;
+  cout << "The value of the slope is " << setprecision(2) << setw(6) << setfill ('0') << m << endl;
   
-
   return 0;
 }
