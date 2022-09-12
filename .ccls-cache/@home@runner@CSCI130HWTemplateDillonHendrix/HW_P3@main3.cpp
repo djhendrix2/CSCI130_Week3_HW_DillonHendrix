@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
   // initialize variables
-  double E, R, C, t, i; // Cordinate units 
+  double E, R, RC, t, i; // Cordinate units 
   const double e = 2.17828;
 
   // Manipulate variables 
@@ -31,7 +31,7 @@ int main() {
 
   // Obtain C
   cout << "Enter the value of the capacitor in farads (C) : ";
-  cin >> C;
+  cin >> RC;
   cout << endl;
 
   // Obtain t
@@ -40,10 +40,11 @@ int main() {
   cout << endl;
 
   // Calculate slope m
-  i = pow((E/R)*e,(-t/R*C));
-
-  // Display m
-  cout << "The voltage across the capacitor is " << i << endl;
+  i = pow((E/R)*e,(-t/RC));
+  cout << "The current flowing throught the curcuit (i); " << i << endl;
+  
+  // Display i
+  // cout << "The voltage across the capacitor is " << i << endl;
   
   return 0;
 }
