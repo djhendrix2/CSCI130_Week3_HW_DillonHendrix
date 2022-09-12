@@ -12,7 +12,7 @@ using namespace std;
 int main() {
   // Initalize variables 
   int a, b;
-  cin >> a >> b;
+  // cin >> a >> b;
 
   // Obtain a
   cout << "Enter a: ";
