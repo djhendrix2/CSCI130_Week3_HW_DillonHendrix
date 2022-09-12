@@ -14,14 +14,7 @@ int main() {
   // Initalize variables 
   double R, C, percent_cheese, percent_crust;
 
-  // Prompt user to input C, R
-  cout << "The amount of cheese to crust (R): " << setprecision(7);
-  cin >> C;
-  cout << endl;
-  
-  cout << " The amount of crust to cheese (C): " << setprecision(7);
-  cin >> R;
-  cout << endl;
+
 
   // Determine cheese ratio
   cin >> R >> C;
